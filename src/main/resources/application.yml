@@ -14,3 +14,11 @@ spring:
     properties:
       hibernate:
         format_sql: true
+  main:
+    allow-circular-references: true
+
+jwt:
+  secret: "b4c834e8d9a91a79f3a7c2e9b6e9f5b1d6a0e4b1e3c2a9d8b5f4c3e2a1d9b8c7"
+  expiration: 3600000  # Token validity in milliseconds (1 hour in this case)
+
+
